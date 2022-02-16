@@ -4,10 +4,12 @@ import java.util.Scanner;
 
 public class SimpleCalc {
     public static void main(String[] args) {
+        // We are doing this
         System.out.println("----------------------------");
         System.out.println("---------My CALC------------");
         System.out.println("----------------------------");
 
+        // Simple
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter first number: ");
