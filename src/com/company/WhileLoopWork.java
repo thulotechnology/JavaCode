@@ -7,7 +7,7 @@ public class WhileLoopWork {
 //            System.out.println(i);
 //            i++;
 //        }
-                int i =100;
+        int i =100;
         while (i>=1){
             System.out.println(i);
             i--;
