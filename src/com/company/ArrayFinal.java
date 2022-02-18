@@ -12,3 +12,5 @@ public class ArrayFinal {
         System.out.println("The avg is "+average);
     }
 }
+
+
