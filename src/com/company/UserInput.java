@@ -6,9 +6,9 @@ public class UserInput {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Number: ");
-        int num = sc.nextInt();
+        double number = sc.nextDouble();
 
-        System.out.println("The number you typed is "+num);
+        System.out.println("The number you typed is "+number);
     }
 }
 
