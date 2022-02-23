@@ -1,20 +1,15 @@
 package com.company;
-
 public class StudentWork {
     public static void main(String[] args) {
-       Student s = new Student("Rama",1);
+       Student s = new Student("Rima",1);
        Student d = new Student("Bimal", 2);
-
        d.printDetails();
     }
-
 }
-
 class Student{
     // Proporties
     String name;
     int rollno;
-
     // Constructor
     Student(String name, int rollno){
         this.name = name;
