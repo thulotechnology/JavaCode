@@ -10,6 +10,7 @@ public class LaptopWork {
         // To Create Object: Classname objName = new ClassName();
 //        To Create List: List<Type> listName = new ArrayList<Type>();
         List<Laptop> laptopList = new ArrayList<Laptop>();
+
         String userresult = "Yes";
         do{
             System.out.println("Enter Laptop Name");
@@ -55,7 +56,8 @@ class Laptop{
         System.out.println("Laptop name is "+this.name);
         System.out.println("Laptop price is "+this.price);
         System.out.println("Laptop RAM is "+this.ram + "GB");
-        System.out.println("Laptop Battery Backup is "+batterycap + "hrs.");
+        System.out.println("Laptop Battery Backup is "+batterycap + "hrs.\n");
+
     }
 }
 
